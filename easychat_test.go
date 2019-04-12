@@ -2,7 +2,7 @@ package easychat
 
 import "fmt"
 
-func ExampleJoinChatRoom() {
+func Example() {
 	chatClient, err := JoinChatRoom("128.0.0.1", "ExampleUser")
 	if err != nil {
 		fmt.Println("Error:", err.Error())
